@@ -11,7 +11,7 @@ window.customElements.define("my-switch-ils", MySwitchILS);
   </div>
 </template>
 
-<style scoped>
+<style>
 div.box-wrapper {
   display: flex;
   justify-content: center;

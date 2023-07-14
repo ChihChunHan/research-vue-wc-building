@@ -16,16 +16,18 @@ window.customElements.define("ce-my-switch-css", CEMySwitchCSS);
   <h1>example-2 styling</h1>
   <table cellspacing="30">
     <tr>
-      <th>*.vue with css</th>
       <th>*.vue with inline-style</th>
+      <th>*.vue with css</th>
       <th>*.ce.vue with css</th>
     </tr>
     <tr>
-      <td><my-switch-css></my-switch-css></td>
       <td><my-switch-ils></my-switch-ils></td>
+      <td><my-switch-css></my-switch-css></td>
       <td><ce-my-switch-css></ce-my-switch-css></td>
     </tr>
   </table>
+  <!-- 補充說明 -->
+  <!-- <CE_VueMySwitch_CSS></CE_VueMySwitch_CSS> -->
 </template>
 
 <style>

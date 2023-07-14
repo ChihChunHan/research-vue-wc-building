@@ -1,14 +1,14 @@
 <script setup>
-import VueSwitchCSS from "./Switch_CSS.ce.vue";
+import SwitchCSS from "./Switch_CSS.vue";
 </script>
 
 <template>
   <div class="box-wrapper">
-    <VueSwitchCSS></VueSwitchCSS>
+    <SwitchCSS></SwitchCSS>
   </div>
 </template>
 
-<style scoped>
+<style>
 div.box-wrapper {
   display: flex;
   justify-content: center;

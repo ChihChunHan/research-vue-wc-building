@@ -1,10 +1,10 @@
 <script setup>
-import VueSwitchILS from "./Switch_ILS.vue";
+import SwitchCSS from "./Switch_CSS.ce.vue";
 </script>
 
 <template>
   <div class="box-wrapper">
-    <VueSwitchILS></VueSwitchILS>
+    <SwitchCSS></SwitchCSS>
   </div>
 </template>
 
