@@ -33,17 +33,18 @@ window.customElements.define("my-wrapper-wc-ils", MyWrapperWC_ILS);
     <tr>
       <td>*.ce.vue with Vue component</td>
       <td><my-wrapper-vc-ils></my-wrapper-vc-ils></td>
+      <!-- 問題：請問引入 Vue 元件的時候要不要使用 *.ce.vue / *.vue -->
       <td><my-wrapper-vc-css></my-wrapper-vc-css></td>
       <td><my-wrapper-vc-ce-css></my-wrapper-vc-ce-css></td>
     </tr>
     <tr>
       <td>*.ce.vue with web component</td>
       <td><my-wrapper-wc-ils></my-wrapper-wc-ils></td>
+      <!-- 問題：請問引入 web component 的時候要不要使用 *.ce.vue / *.vue -->
       <td><my-wrapper-wc-css></my-wrapper-wc-css></td>
       <td><my-wrapper-wc-ce-css></my-wrapper-wc-ce-css></td>
     </tr>
   </table>
-  <div></div>
 </template>
 
 <style>

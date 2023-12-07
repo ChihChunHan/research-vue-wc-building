@@ -10,7 +10,7 @@ const isDark = ref(false);
   </button>
 </template>
 
-<style scoped>
+<style>
 button {
   background-color: #7400a2;
   border: none;

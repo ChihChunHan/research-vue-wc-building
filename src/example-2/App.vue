@@ -27,7 +27,7 @@ window.customElements.define("ce-my-switch-css", CEMySwitchCSS);
     </tr>
   </table>
   <!-- 補充說明 -->
-  <!-- <CE_VueMySwitch_CSS></CE_VueMySwitch_CSS> -->
+  <CE_VueMySwitch_CSS></CE_VueMySwitch_CSS>
 </template>
 
 <style>

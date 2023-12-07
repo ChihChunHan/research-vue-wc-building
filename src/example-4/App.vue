@@ -29,7 +29,7 @@ customElements.define("my-wrapper", MyWrapper);
   align-items: center;
 }
 .outer {
-  /* color: red; */
+  color: red;
   background-color: #ddd;
 }
 </style>
